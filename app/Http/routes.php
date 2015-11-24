@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Routegi
+Route::resource('task', 'TaskController');
+Route::resource('tag', 'TagController');
